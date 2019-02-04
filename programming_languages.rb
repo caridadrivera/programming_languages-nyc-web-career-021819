@@ -39,6 +39,10 @@ def reformat_languages(languages)
 #and at this level we add the hash value which is the :type has inside the
 
         new_hash[language][key] = v
+        
+        
+#finally we add the hash key and its empty array value we wanted to add.
+
         new_hash[language][:style] = []
       end
     end
